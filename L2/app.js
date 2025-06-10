@@ -54,7 +54,7 @@ var person = {
     age: 21,
     skills: ["React", "Node"],
     product: [10, "Macbook Air M2"],
-    role: Role.READ_USER_ONLY
+    role: Role.ADMIN
 };
 if (person.role === Role.AUTHOR) {
     console.log("Author");
